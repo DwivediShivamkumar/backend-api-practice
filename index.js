@@ -28,6 +28,10 @@ app.get('/contact', (req,res) => {
   res.send(8709045678)
 })
 
+app.get('/footballer', (req, res) => {
+  res.send('<h1>Messi is the best footballer of all time.</h1>')
+})
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
